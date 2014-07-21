@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
+gem 'mail_form'
 
 group :development, :test do
 gem 'sqlite3'
@@ -24,7 +25,6 @@ end
 gem 'jquery-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-gem 'spring'
 
 
 
