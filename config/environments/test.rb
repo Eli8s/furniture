@@ -37,11 +37,4 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-# Cloudinary
-
-  cloud_name: furniture
-  api_key: '666764451884452'
-  api_secret: 1zQzu4MXhHGva8qVgPrHtXWaVUQ
-  enhance_image_tag: true
-  static_image_support: false
 end
