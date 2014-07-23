@@ -10,6 +10,7 @@ gem 'devise'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'mail_form'
+gem 'cloudinary'
 
 group :development, :test do
 gem 'sqlite3'

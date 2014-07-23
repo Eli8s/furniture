@@ -40,4 +40,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   config.action_mailer.raise_delivery_errors = true
 
+
+# Cloudinary
+
+cloud_name: furniture
+  api_key: '666764451884452'
+  api_secret: 1zQzu4MXhHGva8qVgPrHtXWaVUQ
+  enhance_image_tag: true
+  static_image_support: false
+
 end

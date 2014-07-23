@@ -80,4 +80,14 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+
+# Cloudinary
+
+
+  cloud_name: furniture
+  api_key: '666764451884452'
+  api_secret: 1zQzu4MXhHGva8qVgPrHtXWaVUQ
+  enhance_image_tag: true
+  static_image_support: true
 end
