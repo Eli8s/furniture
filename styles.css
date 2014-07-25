@@ -1,0 +1,5 @@
+lessc: ENOENT, open '/Users/elias_koster/Desktop/furniture/styles.less'
+
+.btn-primary {
+  .buttonBackground(@pink, @black);
+}

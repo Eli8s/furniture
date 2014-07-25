@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get "products" => "pages#products"
   get "about" => "pages#about"
   get "contact" => "pages#contact"
+  get "rot" => "pages#rot"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
