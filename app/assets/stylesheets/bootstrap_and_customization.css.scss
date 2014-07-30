@@ -6,7 +6,7 @@
 
 $body-bg:                              	#ecf0f1;
 $font-family-sans-serif:               	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                        	45px;
+$navbar-height:                        	55px;
 $navbar-default-bg:                    	#1c2540;
 $navbar-default-brand-color:      		white;
 $navbar-default-link-hover-color:		white;
@@ -14,10 +14,15 @@ $brand-primary:                        	white;
 $well-bg:                               white;
 $btn-primary-color:						white;
 $btn-primary-bg:						#e47263;
-
-
-
-
+$btn-primary-bg:						#1c2540;
 
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: sans-serif;
+}
