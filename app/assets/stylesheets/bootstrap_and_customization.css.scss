@@ -3,10 +3,11 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
 
+@import url(http://fonts.googleapis.com/css?family=Muli);
 
 $body-bg:                              	#ecf0f1;
-$font-family-sans-serif:               	'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                        	55px;
+$font-family-sans-serif:               	'Muli', sans-serif, Arial, sans-serif;
+$navbar-height:                        	90px;
 $navbar-default-bg:                    	#1c2540;
 $navbar-default-brand-color:      		white;
 $navbar-default-link-hover-color:		white;
@@ -15,7 +16,7 @@ $well-bg:                               white;
 $btn-primary-color:						white;
 $btn-primary-bg:						#e47263;
 $btn-primary-bg:						#1c2540;
-
+$font-size-base:						25px;
 
 @import 'bootstrap';
 
@@ -25,4 +26,22 @@ $btn-primary-bg:						#1c2540;
 
 .navbar-brand {
      font-weight: sans-serif;
+     font-size: 40px;
+}
+
+.background {
+	background-image: url('bern.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#intro { 
+    background: url(bern.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
 }
